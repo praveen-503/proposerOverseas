@@ -1,0 +1,7 @@
+::ng-deep popover-container {
+  max-width: 100% !important;
+}
+
+::ng-deep .bs-popover-bottom>.arrow::after {
+  border-bottom-color: black !important;
+}

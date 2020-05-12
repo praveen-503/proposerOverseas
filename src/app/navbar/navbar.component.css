@@ -1,0 +1,136 @@
+div.c {
+    position: absolute;
+    right: 20px;  
+  }
+  
+ * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .container-fluid {
+    position: relative;
+    padding: 0%;
+  }
+  
+  .container-fluid img {vertical-align: middle;}
+  
+  .container-fluid .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 30px;
+  }
+
+  .semi-transparent {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    color:rgb(90, 90, 90);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+  }
+
+  .semi-transparent-button {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    width: 80%;
+    max-width: 200px;
+    background: rgb(220,220,220);
+    border-radius: 8px;
+    color:rgb(90, 90, 90);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+  }
+
+  .semi-transparent-button:hover,
+.semi-transparent-button:focus,
+.semi-transparent-button:active {
+    background: rgba(30, 52, 142, 0.5);
+    border-color: rgba(30, 52, 142, 0.5);
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.5s ease-in;
+}
+
+body {
+  background: #C5E1A5;
+}
+.search-form{
+width: 100%;
+}
+form {
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  padding-bottom: 15px;
+}
+label {
+  display: block;
+  position: relative;
+  margin: 40px 0px;
+}
+.label-txt {
+  position: absolute;
+  top: -1.6em;
+  padding: 10px;
+  letter-spacing: 1px;
+  color: rgb(120,120,120);
+  transition: ease .3s;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.line-box {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: #BCBCBC;
+}
+
+.line {
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #8BC34A;
+  transition: ease .6s;
+}
+
+.input:focus + .line-box .line {
+  width: 100%;
+}
+
+.label-active {
+  top: -3em;
+}
+
